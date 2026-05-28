@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    background-color: black;
+    font-family: "Courier New", Courier, monospace;
+    background: #423f3c;
+    background: radial-gradient(
+        circle,
+        rgba(66, 63, 60, 1) 0%,
+        rgba(0, 0, 0, 1) 100%
+    );
+}
+
+span {
+    color: orange;
+}
+
+.content {
+    text-align: center;
+}
+
+.sticky-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 14px 20px;
+    border: none;
+    color: rgb(25, 25, 25);
+    background-color: darkorange;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sticky-button:hover {
+    background-color: orange;
+}

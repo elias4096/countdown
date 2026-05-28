@@ -1,0 +1,31 @@
+div {
+    max-width: 500px;
+    padding: 20px;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+    width: 100%;
+    margin: 8px 0px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    color: white;
+    background-color: rgb(25, 25, 25);
+}
+
+input[type="submit"] {
+    width: 100%;
+    margin: 8px 0;
+    padding: 14px 20px;
+    border: none;
+    color: rgb(25, 25, 25);
+    background-color: darkorange;
+    font-family: "Courier New", Courier, monospace;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: orange;
+}
